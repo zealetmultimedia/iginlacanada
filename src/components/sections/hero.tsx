@@ -38,7 +38,7 @@ export default function Hero() {
           <Button asChild size="lg" className="bg-accent text-accent-foreground font-bold text-lg px-8 py-6 rounded-full transition-transform duration-300 hover:scale-105 shadow-lg">
             <Link href={googleFormUrl} target="_blank" rel="noopener noreferrer">Reserve Your Seat Now!</Link>
           </Button>
-        </div> {/* This was the missing closing div */}
+        </div>
       </div>
     </section>
   );
