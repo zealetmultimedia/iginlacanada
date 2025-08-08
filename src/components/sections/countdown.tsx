@@ -27,10 +27,11 @@ const calculateTimeLeft = (targetDate: string): TimeLeft => {
 
 export default function Countdown({ targetDate }: { targetDate: string }) {
   const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(null);
+  const [mounted, setMounted] = useState(false); // New state to track if component is mounted on client
 
   useEffect(() => {
-    // Set initial value on client-side to avoid hydration mismatch
-    setTimeLeft(calculateTimeLeft(targetDate));
+    setMounted(true); // Mark component as mounted
+    setTimeLeft(calculateTimeLeft(targetDate)); // Set initial value on client-side
 
     const timer = setInterval(() => {
       setTimeLeft(calculateTimeLeft(targetDate));
@@ -39,7 +40,8 @@ export default function Countdown({ targetDate }: { targetDate: string }) {
     return () => clearInterval(timer);
   }, [targetDate]);
 
-  if (!timeLeft) {
+  // Render null on the server and until the component is mounted on the client
+  if (!mounted || !timeLeft) {
     return null;
   }
 
