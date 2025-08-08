@@ -14,11 +14,11 @@ export default function Hero() {
         alt="Worship event with text overlay for Canada Invasion 2025"
         data-ai-hint="preacher stage"
         fill
-        className="object-cover"
+        className="object-cover z-0"
         priority
       />
-      <div className="absolute inset-0 bg-black/60" />
-      <div className="relative z-10 container px-4 md:px-6 flex flex-col items-center">
+      <div className="absolute inset-0 bg-black/60 z-10" />
+      <div className="relative z-20 container px-4 md:px-6 flex flex-col items-center">
         <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-primary drop-shadow-lg">
           Canada Invasion 2025
         </h1>
