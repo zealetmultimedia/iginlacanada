@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <section className="relative w-full h-[80vh] min-h-[700px] flex items-center justify-center text-center text-white overflow-hidden">
       <Image
-        src="https://i.imgur.com/your_new_image_id.png" {/* REPLACE THIS WITH YOUR IMAGE'S PUBLIC URL */}
+        src="https://i.imgur.com/your_new_image_id.png"
         alt="Canada Invasion 2025 banner with Prophet Joshua Iginla and Toronto skyline"
         data-ai-hint="preacher stage, Toronto skyline"
         fill
