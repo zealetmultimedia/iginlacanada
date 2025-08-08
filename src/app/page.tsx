@@ -1,0 +1,33 @@
+import Header from '@/components/layout/header';
+import Footer from '@/components/layout/footer';
+import Hero from '@/components/sections/hero';
+import ContactBar from '@/components/sections/contact-bar';
+import Highlights from '@/components/sections/highlights';
+import Hosts from '@/components/sections/hosts';
+import Location from '@/components/sections/location';
+import Registration from '@/components/sections/registration';
+import ShareTool from '@/components/sections/share-tool';
+import Videos from '@/components/sections/videos';
+import StayConnected from '@/components/sections/stay-connected';
+import Gallery from '@/components/sections/gallery';
+
+export default function Home() {
+  return (
+    <div className="flex flex-col min-h-dvh bg-background">
+      <Header />
+      <main className="flex-1">
+        <Hero />
+        <ContactBar />
+        <Highlights />
+        <Videos />
+        <Hosts />
+        <Gallery />
+        <Registration />
+        <Location />
+        <StayConnected />
+        <ShareTool />
+      </main>
+      <Footer />
+    </div>
+  );
+}
