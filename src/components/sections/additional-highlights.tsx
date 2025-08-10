@@ -13,7 +13,7 @@ export default function AdditionalHighlights() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {additionalHighlights.map((highlight) => (
-            <Card key={highlight.title} className="flex flex-col items-center text-center p-6 bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
+            <Card key={highlight.title} className="flex flex-col items-center text-center p-6 bg-black rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
               <CardHeader className="p-0">
                 {/* Icon removed */}
                 <CardTitle className="font-headline text-xl text-primary">{highlight.title}</CardTitle>
