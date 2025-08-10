@@ -8,7 +8,7 @@ export default function Location() {
   const googleMapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.183075324155!2d-79.46921309999999!3d43.7690584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2dfd73d94d9d%3A0xc87b9744baa63637!2sNational%20Event%20Venue%20Space!5e0!3m2!1sen!2sng!4v1754682807583!5m2!1sen!2sng`;
 
   return (
-    <section className="py-30 md:py-24 lg:py-32 bg-secondary">
+    <section className="py-8 md:py-16 lg:py-24 bg-secondary">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl">Event Location</h2>

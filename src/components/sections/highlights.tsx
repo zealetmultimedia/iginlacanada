@@ -16,7 +16,7 @@ export default function Highlights() {
   // Removed videoUrl constant
 
   return (
-    <section className="py-12 md:py-24 lg:py-32 bg-secondary">
+    <section className="py-8 md:py-16 lg:py-24 bg-secondary">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mb-12 mx-auto"> {/* Adjusted this div */}
           <Card className="border-primary shadow-lg rounded-xl">

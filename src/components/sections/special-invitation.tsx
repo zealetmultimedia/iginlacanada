@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function SpecialInvitation() {
   return (
-    <section className="py-12 md:py-24 lg:py-32 bg-background">
+    <section className="py-8 md:py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <Card className="max-w-6xl mx-auto rounded-xl shadow-lg border-primary/50 overflow-hidden">
           <div className="md:grid md:grid-cols-2">

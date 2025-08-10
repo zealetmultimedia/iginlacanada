@@ -46,7 +46,7 @@ export default function ShareTool() {
   };
 
   return (
-    <section className="py-12 md:py-24 lg:py-32 bg-secondary">
+    <section className="py-8 md:py-16 lg:py-24 bg-secondary">
       <div className="container mx-auto px-4 md:px-6">
         <Card className="max-w-3xl mx-auto rounded-xl shadow-lg">
           <CardHeader className="text-center">
