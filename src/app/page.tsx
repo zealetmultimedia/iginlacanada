@@ -34,7 +34,7 @@ export default function Home() {
     },
     {
       imageSrc: 'https://i.imgur.com/video_placeholder.png',
-      videoUrl: 'https://streamable.com/pr7gsk',
+      videoUrl: 'https://streamable.com/ifql3d',
       aiHint: 'powerful testimonies, church service',
       title: 'POWERFUL TESTIMONIES',
       subtitle: 'Witness the Miracles',
