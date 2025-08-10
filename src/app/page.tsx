@@ -65,13 +65,59 @@ export default function Home() {
     },
   ];
 
+  const firstGallerySet = [
+    {
+      src: "https://i.imgur.com/NoJphEb.png",
+      alt: 'Prophet Joshua Iginla during a sermon.',
+      aiHint: 'preacher sermon',
+    },
+    {
+      src: "https://i.imgur.com/sjwf53X.png",
+      alt: 'Prophet Joshua Iginla in prayer.',
+      aiHint: 'man praying',
+    },
+    {
+      src: "https://i.imgur.com/mi8X3Ub.png",
+      alt: 'Prophet Joshua Iginla ministering to the congregation.',
+      aiHint: 'pastor preaching',
+    },
+    {
+      src: "https://i.imgur.com/itCY6Nd.png",
+      alt: 'A portrait of Prophet Joshua Iginla.',
+      aiHint: 'man portrait',
+    },
+  ];
+
+  const secondGallerySet = [
+    {
+      src: "https://imgur.com/naJgnTK.png",
+      alt: 'Prophet Joshua Iginla ministering.',
+      aiHint: 'preacher ministering',
+    },
+    {
+      src: "https://imgur.com/7GdU5n7.png",
+      alt: 'Prophet Joshua Iginla speaking.',
+      aiHint: 'preacher speaking',
+    },
+    {
+      src: "https://imgur.com/SLmOGvr.png",
+      alt: 'Prophet Joshua Iginla in a moment of worship.',
+      aiHint: 'man worshiping',
+    },
+    {
+      src: "https://imgur.com/ODlCxX8.png",
+      alt: 'Prophet Joshua Iginla with a microphone.',
+      aiHint: 'preacher with microphone',
+    },
+  ];
+
   return (
     <div className="flex flex-col min-h-dvh bg-background">
       <Header />
       <main className="flex-1">
         <Hero />
         <ContactBar />
-        <Gallery />
+        <Gallery imageList={firstGallerySet} /> {/* First instance of Gallery */}
         <section className="py-12 md:py-24 lg:py-32 bg-secondary">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
@@ -92,7 +138,7 @@ export default function Home() {
         <AdditionalHighlights />
         <Videos videoList={secondVideoSet} /> {/* Second instance of Videos with new links */}
         <Registration />
-        <Gallery />
+        <Gallery imageList={secondGallerySet} /> {/* Second instance of Gallery with new images */}
         <Registration />
         <SpecialInvitation />
         <Location />
