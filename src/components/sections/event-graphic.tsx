@@ -7,7 +7,7 @@ export default function EventGraphic() {
         <div className="max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg">
           <Image
             src="https://imgur.com/xq1gr8m.png"
-            alt="Canada Invasion 2025 Event Graphic"
+            alt="Canada Divine Visitation 2025 Event Graphic"
             width={1200}
             height={675}
             layout="responsive"

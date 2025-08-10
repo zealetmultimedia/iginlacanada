@@ -20,7 +20,7 @@ const ptSans = PT_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'Canada Prophetic Visitation 2025 | Grace to Grace',
+  title: 'Canada Divine Visitation 2025 | Grace to Grace',
   description: 'Join Joshua Iginla for a life-transforming experience with healing, deliverance, and anointing services. This is your moment of divine elevation!',
 };
 

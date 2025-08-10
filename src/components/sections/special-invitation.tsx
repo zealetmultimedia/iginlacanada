@@ -32,7 +32,7 @@ export default function SpecialInvitation() {
             <div className="relative w-full min-h-[500px] md:min-h-full">
               <Image
                 src="https://i.imgur.com/hbzd0ze.png"
-                alt="Canada Invasion 2025 Event Poster"
+                alt="Canada Divine Visitation 2025 Event Poster"
                 fill
                 className="object-cover"
               />
