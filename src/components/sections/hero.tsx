@@ -33,6 +33,9 @@ export default function Hero() {
         <p className="mt-4 text-2xl font-bold font-headline drop-shadow-md">
             Sat 6th - Sun 7th September, 2025 | 4PM Daily
         </p>
+        <p className="mt-2 text-lg md:text-xl drop-shadow-md">
+            National Event Venue Space, 1000 Finch Ave W, North York, ON
+        </p>
         <Countdown targetDate={eventDate} />
         <div className="mt-8">
           <Button asChild size="lg" className="bg-accent text-accent-foreground font-bold text-lg px-8 py-6 rounded-full transition-transform duration-300 hover:scale-105 shadow-lg">
