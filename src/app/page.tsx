@@ -10,6 +10,7 @@ import ShareTool from '@/components/sections/share-tool';
 import Videos from '@/components/sections/videos';
 import StayConnected from '@/components/sections/stay-connected';
 import Gallery from '@/components/sections/gallery';
+import SpecialInvitation from '@/components/sections/special-invitation';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Hosts />
         <Videos />
         <Gallery />
+        <SpecialInvitation />
         <Registration />
         <Location />
         <StayConnected />
