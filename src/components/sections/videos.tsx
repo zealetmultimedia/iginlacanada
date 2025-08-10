@@ -43,6 +43,18 @@ export default function Videos() {
                       <Volume2 className="w-4 h-4 mr-2" />
                       <p>COME AND RECEIVE YOUR MIRACLE!</p>
                     </div>
+                     </h2>
+        </div>
+        <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
+          {videos.map((video, index) => (
+            <div key={index} className="flex flex-col items-center text-center">
+              <Link href={video.videoUrl} target="_blank" rel="noopener noreferrer" className="w-full">
+                <Card className="group relative w-full overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                  <CardContent className="p-0">
+                    <div className="absolute top-0 left-0 w-full bg-secondary/80 text-secondary-foreground p-2 text-sm font-bold flex items-center z-10">
+                      <Volume2 className="w-4 h-4 mr-2" />
+                      <p>COME AND RECEIVE YOUR MIRACLE!</p>
+                    </div>
                     <Image
                       src={video.imageSrc}
                       alt={video.title}
