@@ -15,7 +15,7 @@ export default function Hosts() {
           <Card className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 max-w-5xl w-full md:grid md:grid-cols-2 items-center">
             <div className="w-full h-full">
               <Image
-                src="https://i.imgur.com/ocUZHa7.jpg"
+                src="https://i.imgur.com/zUFXAPs.png"
                 alt="Prophet Joshua Iginla"
                 data-ai-hint="man portrait"
                 width={600}
