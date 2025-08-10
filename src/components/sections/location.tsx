@@ -28,7 +28,7 @@ export default function Location() {
               </a>
             </Button>
           </div>
-          <div className="aspect-w-16 aspect-h-9">
+          <div className="aspect-w-16 aspect-h-12"> {/* Changed aspect-h-9 to aspect-h-12 */}
             <Card className="overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.183075324155!2d-79.46921309999999!3d43.7690584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2dfd73d94d9d%3A0xc87b9744baa63637!2sNational%20Event%20Venue%20Space!5e0!3m2!1sen!2sng!4v1754682807583!5m2!1sen!2sng"
