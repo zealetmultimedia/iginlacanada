@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Church, Flame, Award, GitBranchPlus, HeartHandshake, Sparkles, MapPin, Calendar, Phone } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
+import EventVideoEmbed from './event-video-embed'; // Import the new component
 
 const highlights = [
   { icon: <Flame className="w-8 h-8 text-primary" />, title: 'Forensic Prophecy', description: 'Witness forensic prophecy, deep deliverance, and healing.' },
@@ -12,16 +13,17 @@ const highlights = [
 export default function Highlights() {
   const address = 'National Event Venue Space, 1000 Finch Avenue W, North York, ON M3J 2V5, Canada';
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+  const videoUrl = "https://streamable.com/woa89k"; // The Streamable video URL
 
   return (
     <section className="py-12 md:py-24 lg:py-32 bg-secondary">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="mb-12 max-w-5xl mx-auto">
+        <div className="mb-12 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start"> {/* Changed to grid layout */}
           <Card className="border-primary shadow-lg rounded-xl">
             <CardHeader>
               <CardTitle className="text-3xl font-headline font-bold text-center text-primary">Event Details</CardTitle>
             </CardHeader>
-            <CardContent className="grid md:grid-cols-3 gap-8 p-6 md:p-8 text-base md:text-lg text-foreground">
+            <CardContent className="grid md:grid-cols-1 gap-8 p-6 md:p-8 text-base md:text-lg text-foreground">
                 <div className="flex items-start gap-4">
                     <MapPin className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
                     <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
@@ -48,6 +50,7 @@ export default function Highlights() {
                 </div>
             </CardContent>
           </Card>
+          <EventVideoEmbed videoUrl={videoUrl} /> {/* Added the new video component here */}
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto mb-20">
