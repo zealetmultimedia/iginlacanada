@@ -30,7 +30,7 @@ export default function Gallery() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl"></h2>
-          <p className="mt-3 max-w-2xl mx-auto text-muted-foreground md:text-xl/relaxed font-bold">
+          <p className="mt-3 max-w-2xl mx-auto text-foreground md:text-xl/relaxed font-bold font-headline">
             Moments of faith and power with Prophet Joshua Iginla.
           </p>
         </div>
