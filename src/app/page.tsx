@@ -20,14 +20,14 @@ export default function Home() {
   const firstVideoSet = [
     {
       imageSrc: 'https://img.youtube.com/vi/ljv9vYLWqpo/hqdefault.jpg',
-      videoUrl: 'https://youtu.be/Wo17Mw0EG4c',
+      videoUrl: 'https://youtu.be/ljv9vYLWqpo', // Updated link
       aiHint: 'preacher sermon',
       title: 'FORENSIC PROPHECY',
       subtitle: 'PART 1',
     },
     {
       imageSrc: 'https://img.youtube.com/vi/x9QegoXqIcI/hqdefault.jpg',
-      videoUrl: 'https://youtu.be/Wo17Mw0EG4c',
+      videoUrl: 'https://youtu.be/x9QegoXqIcI', // Updated link
       aiHint: 'church congregation',
       title: 'FORENSIC PROPHECY',
       subtitle: 'PART 2',
@@ -90,7 +90,7 @@ export default function Home() {
 
   const secondGallerySet = [
     {
-      src: "https://imgur.com/0WqbZPO.png",
+      src: "https://imgur.com/naJgnTK.png",
       alt: 'Prophet Joshua Iginla ministering.',
       aiHint: 'preacher ministering',
     },
