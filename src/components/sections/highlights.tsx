@@ -55,16 +55,13 @@ export default function Highlights() {
 
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto mb-20">
           <div className="space-y-4 text-muted-foreground md:text-lg/relaxed text-left">
-            <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl text-foreground">Special Invitation: Don't Come Alone!</h2>
+            <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl text-foreground">An Unforgettable Encounter</h2>
             <p>
-              Join Prophet Joshua Iginla live in Canada for the "Grass to Grace" Healing, Deliverance, and Anointing Service on September 6th-7th, 2025. This is an unforgettable, destiny-shifting encounter where you can expect forensic prophecy, deep deliverance, and supernatural healing. Don't miss this opportunity to witness heaven kiss earth in a new dimension of grace, glory, and greatness.
+              Get ready for an unforgettable, destiny-shifting encounter at the "Grass to Grace" Canada Invasion 2025! This is a unique opportunity to join Prophet Joshua Iginla live for a life-transforming experience where heaven is expected to touch earth in a new dimension of grace, glory, and greatness. Attendees should prepare for a mighty shift to the next level in every area of their lives.
             </p>
             <h3 className="text-3xl md:text-4xl font-bold font-headline text-foreground pt-4">An Invitation to Divine Elevation</h3>
             <p>
-             The atmosphere will be charged with the undiluted Word of God, creating an environment ripe for spiritual breakthroughs and undeniable miracles. This isn't just a meeting; it's your moment for divine elevation. Bring your family, friends, neighbors, coworkers, or anyone who needs a miracle and a life-transforming experience. One invitation could unlock someone's miracle!
-            </p>
-            <p>
-              Spread the word about this powerful Canadian revival at the National Event Venue Space, 1000 Finch Ave W, North York, ON M3J 2V5. Let's pack the house with expectation and watch God move! Come ready for your breakthrough – Canada, get ready... grace is invading!
+             This special healing, deliverance, and anointing service is designed to usher participants into a season of bountiful harvests, undeniable miracles, and profound divine encounters. You can anticipate being empowered by undiluted revelations from the Word of God and witnessing forensic prophecy, deep deliverance, healing, and the supernatural like never before. This is more than just a meeting; it is poised to be your personal moment of divine elevation as "Grace is Invading" Canada.
             </p>
           </div>
           <div>
