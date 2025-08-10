@@ -11,26 +11,18 @@ export default function Hosts() {
       imageAlt: 'Prophet Joshua Iginla',
       aiHint: 'man portrait',
     },
-    {
-      name: 'Prophetess Stella Iginla',
-      title: 'Co-Pastor, Champions Royal Assembly',
-      bio: 'A powerful woman of God, co-pastor, and spiritual mother, Prophetess Stella Iginla stands alongside Prophet Joshua Iginla, ministering with grace and anointing. Her teachings and prayers bring healing, deliverance, and spiritual growth to many, complementing the ministry with a profound touch of compassion and wisdom.',
-      imageSrc: 'https://i.imgur.com/2y0222L.png', // Placeholder image, replace with actual image
-      imageAlt: 'Prophetess Stella Iginla',
-      aiHint: 'woman portrait',
-    },
   ];
 
   return (
     <section className="py-12 md:py-24 lg:py-32 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl">Meet Your Hosts</h2>
+          <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl">Meet Your Host</h2>
           <p className="mt-3 max-w-2xl mx-auto text-muted-foreground md:text-xl/relaxed">
-            Internationally renowned ministers and prophetic voices.
+            Internationally renowned minister and prophetic voice.
           </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 gap-8 max-w-3xl mx-auto">
           {hosts.map((host, index) => (
             <Card key={index} className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-full flex flex-col md:flex-row items-center">
               <div className="w-full md:w-1/2 h-64 md:h-auto flex-shrink-0">
