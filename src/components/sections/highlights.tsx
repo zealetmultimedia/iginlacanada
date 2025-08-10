@@ -5,9 +5,9 @@ import Link from 'next/link';
 // Removed EventVideoEmbed import
 
 const highlights = [
-  { icon: <Flame className="w-8 h-8 text-primary" />, title: 'Forensic Prophecy', description: 'Witness forensic prophecy, deep deliverance, and healing.' },
-  { icon: <Sparkles className="w-8 h-8 text-primary" />, title: 'Supernatural Encounters', description: 'Experience the supernatural like never before.' },
-  { icon: <Award className="w-8 h-8 text-primary" />, title: 'Divine Elevation', description: 'This is more than a meeting, it\'s your moment of divine elevation.' },
+  { icon: <Flame className="w-8 h-8 text-foreground" />, title: 'Forensic Prophecy', description: 'Witness forensic prophecy, deep deliverance, and healing.' },
+  { icon: <Sparkles className="w-8 h-8 text-foreground" />, title: 'Supernatural Encounters', description: 'Experience the supernatural like never before.' },
+  { icon: <Award className="w-8 h-8 text-foreground" />, title: 'Divine Elevation', description: 'This is more than a meeting, it\'s your moment of divine elevation.' },
 ];
 
 export default function Highlights() {

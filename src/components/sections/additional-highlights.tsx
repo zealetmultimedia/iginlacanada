@@ -2,9 +2,9 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { GitBranchPlus, HeartHandshake, Church } from 'lucide-react';
 
 const additionalHighlights = [
-  { icon: <GitBranchPlus className="w-8 h-8 text-primary" />, title: 'Undiluted Revelations', description: 'Be empowered by undiluted revelations from the Word of God.' },
-  { icon: <HeartHandshake className="w-8 h-8 text-primary" />, title: 'Deliverance & Breakthrough', description: 'Step into your season of bountiful harvests and miracles.' },
-  { icon: <Church className="w-8 h-8 text-primary" />, title: 'Life-Transforming Experience', description: 'Join a life-transforming experience as heaven kisses earth.' },
+  { icon: <GitBranchPlus className="w-8 h-8 text-foreground" />, title: 'Undiluted Revelations', description: 'Be empowered by undiluted revelations from the Word of God.' },
+  { icon: <HeartHandshake className="w-8 h-8 text-foreground" />, title: 'Deliverance & Breakthrough', description: 'Step into your season of bountiful harvests and miracles.' },
+  { icon: <Church className="w-8 h-8 text-foreground" />, title: 'Life-Transforming Experience', description: 'Join a life-transforming experience as heaven kisses earth.' },
 ];
 
 export default function AdditionalHighlights() {
