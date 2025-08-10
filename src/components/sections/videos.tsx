@@ -21,7 +21,7 @@ const videos = [
   },
   {
     imageSrc: 'https://img.youtube.com/vi/87HCwOeNTW4/hqdefault.jpg',
-    videoUrl: 'https://youtu.be/87HCwOeNTW4',
+    videoUrl: 'https://youtu.be/ljv9vYLWqpo',
     aiHint: 'worship event',
     title: 'FORENSIC PROPHECY',
     subtitle: 'PART 3',
