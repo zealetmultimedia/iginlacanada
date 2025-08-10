@@ -19,8 +19,8 @@ export default function Home() {
         <Hero />
         <ContactBar />
         <Highlights />
-        <Videos />
         <Hosts />
+        <Videos />
         <Gallery />
         <Registration />
         <Location />
