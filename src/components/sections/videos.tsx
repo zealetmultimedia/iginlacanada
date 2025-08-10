@@ -7,7 +7,7 @@ import { PlayCircle, Volume2 } from 'lucide-react';
 const videos = [
   {
     imageSrc: 'https://img.youtube.com/vi/ljv9vYLWqpo/hqdefault.jpg',
-    videoUrl: 'https://youtu.be/ljv9vYLWqpo',
+    videoUrl: 'https://youtu.be/Wo17Mw0EG4c', // Updated this URL
     aiHint: 'preacher sermon',
     title: 'FORENSIC PROPHECY',
     subtitle: 'PART 1',
