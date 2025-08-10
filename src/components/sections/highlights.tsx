@@ -23,7 +23,7 @@ export default function Highlights() {
             </p>
             <div className="my-8 flex justify-center">
               <Image
-                src="https://i.imgur.com/Nd1PEVK.png"
+                src="https://i.imgur.com/PBMI6Zy.png"
                 alt="Canada Invasion 2025 Event Poster"
                 width={720}
                 height={1080}
@@ -31,6 +31,7 @@ export default function Highlights() {
                 priority
               />
             </div>
+            <h3 className="text-2xl font-bold font-headline text-foreground mt-8">An Invitation to Divine Elevation</h3>
             <p>
              This special healing, deliverance, and anointing service is designed to usher participants into a season of bountiful harvests, undeniable miracles, and profound divine encounters. You can anticipate being empowered by undiluted revelations from the Word of God and witnessing forensic prophecy, deep deliverance, healing, and the supernatural like never before. This is more than just a meeting; it is poised to be your personal moment of divine elevation as "Grace is Invading" Canada.
             </p>
