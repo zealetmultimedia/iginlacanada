@@ -12,21 +12,35 @@ import StayConnected from '@/components/sections/stay-connected';
 import Gallery from '@/components/sections/gallery';
 import SpecialInvitation from '@/components/sections/special-invitation';
 import AdditionalHighlights from '@/components/sections/additional-highlights';
-// import EventGraphic from '@/components/sections/event-graphic'; // Removed import
+import EventVideoEmbed from '@/components/sections/event-video-embed'; // New import for the video component
 
 export default function Home() {
+  const eventVideoUrl = "https://streamable.com/woa89k"; // Define the video URL here
+
   return (
     <div className="flex flex-col min-h-dvh bg-background">
       <Header />
       <main className="flex-1">
         <Hero />
         <ContactBar />
-        <Gallery /> {/* Moved this Gallery section here */}
+        <Gallery />
         <Highlights />
+        <section className="py-12 md:py-24 lg:py-32 bg-secondary">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl">Event Highlight Video</h2>
+              <p className="mt-3 max-w-2xl mx-auto text-muted-foreground md:text-xl/relaxed">
+                Catch a glimpse of the powerful atmosphere awaiting you.
+              </p>
+            </div>
+            <div className="max-w-4xl mx-auto">
+              <EventVideoEmbed videoUrl={eventVideoUrl} />
+            </div>
+          </div>
+        </section>
         <Videos />
         <Registration />
         <Hosts />
-        {/* <EventGraphic /> Removed component */}
         <AdditionalHighlights />
         <Videos />
         <Registration />
