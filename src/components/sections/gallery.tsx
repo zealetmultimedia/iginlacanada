@@ -29,8 +29,8 @@ export default function Gallery() {
     <section className="py-12 md:py-24 lg:py-32 bg-secondary">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl">Gallery</h2>
-          <p className="mt-3 max-w-2xl mx-auto text-muted-foreground md:text-xl/relaxed">
+          <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl"></h2>
+          <p className="mt-3 max-w-2xl mx-auto text-muted-foreground md:text-xl/relaxed font-bold">
             Moments of faith and power with Prophet Joshua Iginla.
           </p>
         </div>
