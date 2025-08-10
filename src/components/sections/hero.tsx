@@ -25,7 +25,7 @@ export default function Hero() {
           Canada Divine Visitation 2025
         </h1>
         <p className="mt-4 text-2xl font-bold font-headline drop-shadow-md">
-            THEME: GRACE TO GRACE
+            THEME: From Grass to Grace
         </p>
         <p className="mt-2 text-lg md:text-xl drop-shadow-md">
             (Healing, Deliverance, and Anointing Service)
