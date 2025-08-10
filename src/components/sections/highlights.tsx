@@ -56,7 +56,7 @@ export default function Highlights() {
           <div className="space-y-4 text-muted-foreground md:text-lg/relaxed text-left">
             <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl text-foreground">An Unforgettable Encounter</h2>
             <p>
-              Get ready for an unforgettable, destiny-shifting encounter at the "Grass to Grace" Canada Invasion 2025! This is a unique opportunity to join Prophet Joshua Iginla live for a life-transforming experience where heaven is expected to touch earth in a new dimension of grace, glory, and greatness. Attendees should prepare for a mighty shift to the next level in every area of their lives.
+              Get ready for an unforgettable, destiny-shifting encounter at the "Grass to Grace" Canada Divine Visitation 2025! This is a unique opportunity to join Prophet Joshua Iginla live for a life-transforming experience where heaven is expected to touch earth in a new dimension of grace, glory, and greatness. Attendees should prepare for a mighty shift to the next level in every area of their lives.
             </p>
             <h3 className="text-3xl md:text-4xl font-bold font-headline text-foreground pt-4">An Invitation to Divine Elevation</h3>
             <p>
@@ -66,7 +66,7 @@ export default function Highlights() {
           <div>
             <Image
               src="https://imgur.com/9MNEqLf.png"
-              alt="Canada Invasion 2025 Event Poster"
+              alt="Canada Divine Visitation 2025 Event Poster"
               width={720}
               height={1080}
               className="rounded-lg shadow-xl mx-auto"
@@ -77,15 +77,15 @@ export default function Highlights() {
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {highlights.map((highlight) => (
-            <Card key={highlight.title} className="flex flex-col items-center text-center p-6 bg-primary rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
+            <Card key={highlight.title} className="flex flex-col items-center text-center p-6 bg-accent rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
               <CardHeader className="p-0">
                 <div className="p-4 bg-gray-900 rounded-full mb-4">
                   {highlight.icon}
                 </div>
-                <CardTitle className="font-headline text-xl text-primary-foreground">{highlight.title}</CardTitle>
+                <CardTitle className="font-headline text-xl text-accent-foreground">{highlight.title}</CardTitle>
               </CardHeader>
               <CardContent className="p-0 mt-2">
-                <p className="text-primary-foreground/90">{highlight.description}</p>
+                <p className="text-accent-foreground/90">{highlight.description}</p>
               </CardContent>
             </Card>
           ))}
