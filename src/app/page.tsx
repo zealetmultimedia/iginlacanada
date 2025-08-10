@@ -33,6 +33,7 @@ export default function Home() {
         <Registration />
         <SpecialInvitation />
         <Location />
+        <Registration /> {/* Added another Registration section here */}
         <StayConnected />
         <ShareTool />
       </main>
