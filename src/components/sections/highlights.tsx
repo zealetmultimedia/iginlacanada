@@ -1,24 +1,22 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Flame, Award, Sparkles, MapPin, Calendar, Phone } from 'lucide-react';
+import { MapPin, Calendar, Phone } from 'lucide-react'; // Removed Flame, Award, Sparkles
 import Image from 'next/image';
 import Link from 'next/link';
-// Removed EventVideoEmbed import
 
 const highlights = [
-  { icon: <Flame className="w-8 h-8 text-foreground" />, title: 'Forensic Prophecy', description: 'Witness forensic prophecy, deep deliverance, and healing.' },
-  { icon: <Sparkles className="w-8 h-8 text-foreground" />, title: 'Supernatural Encounters', description: 'Experience the supernatural like never before.' },
-  { icon: <Award className="w-8 h-8 text-foreground" />, title: 'Divine Elevation', description: 'This is more than a meeting, it\'s your moment of divine elevation.' },
+  { title: 'Forensic Prophecy', description: 'Witness forensic prophecy, deep deliverance, and healing.' },
+  { title: 'Supernatural Encounters', description: 'Experience the supernatural like never before.' },
+  { title: 'Divine Elevation', description: 'This is more than a meeting, it\'s your moment of divine elevation.' },
 ];
 
 export default function Highlights() {
   const address = 'National Event Venue Space, 1000 Finch Avenue W, North York, ON M3J 2V5, Canada';
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
-  // Removed videoUrl constant
 
   return (
     <section className="py-8 md:py-16 lg:py-24 bg-secondary">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="mb-12 mx-auto"> {/* Adjusted this div */}
+        <div className="mb-12 mx-auto">
           <Card className="border-primary shadow-lg rounded-xl">
             <CardHeader>
               <CardTitle className="text-3xl font-headline font-bold text-center text-primary">Event Details</CardTitle>
@@ -77,11 +75,9 @@ export default function Highlights() {
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {highlights.map((highlight) => (
-            <Card key={highlight.title} className="flex flex-col items-center text-center p-6 bg-muted rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
+            <Card key={highlight.title} className="flex flex-col items-center text-center p-6 bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
               <CardHeader className="p-0">
-                <div className="p-4 bg-primary rounded-full mb-4">
-                  {highlight.icon}
-                </div>
+                {/* Icon removed */}
                 <CardTitle className="font-headline text-xl text-primary">{highlight.title}</CardTitle>
               </CardHeader>
               <CardContent className="p-0 mt-2">
