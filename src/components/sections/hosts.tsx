@@ -22,10 +22,10 @@ export default function Hosts() {
             Internationally renowned minister and prophetic voice.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-8 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 gap-8 max-w-5xl mx-auto">
           {hosts.map((host, index) => (
-            <Card key={index} className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-full flex flex-col items-center">
-              <div className="w-full h-96 md:h-[500px] lg:h-[600px] flex-shrink-0">
+            <Card key={index} className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-full flex flex-col md:flex-row items-stretch">
+              <div className="w-full md:w-1/2 h-96 md:h-auto flex-shrink-0">
                 <Image
                   src={host.imageSrc}
                   alt={host.imageAlt}
@@ -35,7 +35,7 @@ export default function Hosts() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="p-6 md:p-8 flex flex-col justify-center w-full">
+              <div className="p-6 md:p-8 flex flex-col justify-center w-full md:w-1/2">
                 <CardTitle className="font-headline text-2xl md:text-3xl">{host.name}</CardTitle>
                 <CardDescription className="text-primary font-semibold mt-2 text-base md:text-lg">{host.title}</CardDescription>
                 <p className="mt-4 text-muted-foreground text-sm md:text-base whitespace-pre-line">
