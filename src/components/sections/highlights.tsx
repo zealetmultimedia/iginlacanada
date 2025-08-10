@@ -18,7 +18,7 @@ export default function Highlights() {
   return (
     <section className="py-12 md:py-24 lg:py-32 bg-secondary">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="mb-12 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        <div className="mb-12 mx-auto"> {/* Adjusted this div */}
           <Card className="border-primary shadow-lg rounded-xl">
             <CardHeader>
               <CardTitle className="text-3xl font-headline font-bold text-center text-primary">Event Details</CardTitle>
@@ -50,7 +50,6 @@ export default function Highlights() {
                 </div>
             </CardContent>
           </Card>
-          {/* Removed EventVideoEmbed component */}
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto mb-20">
