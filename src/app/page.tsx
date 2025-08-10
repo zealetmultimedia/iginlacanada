@@ -118,6 +118,7 @@ export default function Home() {
         <Hero />
         <ContactBar />
         <Gallery imageList={firstGallerySet} /> {/* First instance of Gallery */}
+        <Registration /> {/* Moved Registration here */}
         <section className="py-12 md:py-24 lg:py-32 bg-secondary">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
@@ -133,7 +134,6 @@ export default function Home() {
         </section>
         <Highlights />
         <Videos videoList={firstVideoSet} /> {/* First instance of Videos */}
-        <Registration />
         <Hosts />
         <AdditionalHighlights />
         <Videos videoList={secondVideoSet} /> {/* Second instance of Videos with new links */}
