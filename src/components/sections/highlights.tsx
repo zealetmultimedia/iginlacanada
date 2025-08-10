@@ -23,7 +23,7 @@ export default function Highlights() {
             </p>
             <div className="my-8 flex justify-center">
               <Image
-                src="https://i.imgur.com/a/PBMI6Zy,jpg"
+                src="https://i.imgur.com/a/PBMI6Zy.png"
                 alt="Canada Invasion 2025 Event Poster"
                 width={720}
                 height={1080}
