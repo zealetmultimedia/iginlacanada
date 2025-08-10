@@ -18,30 +18,30 @@ export default function Highlights() {
   return (
     <section className="py-12 md:py-24 lg:py-32 bg-secondary">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="mb-12 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start"> {/* Changed to grid layout */}
+        <div className="mb-12 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           <Card className="border-primary shadow-lg rounded-xl">
             <CardHeader>
               <CardTitle className="text-3xl font-headline font-bold text-center text-primary">Event Details</CardTitle>
             </CardHeader>
-            <CardContent className="grid md:grid-cols-1 gap-8 p-6 md:p-8 text-base md:text-lg text-foreground">
-                <div className="flex items-start gap-4">
-                    <MapPin className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
+            <CardContent className="grid md:grid-cols-3 gap-4 p-6 md:p-8 text-base md:text-lg text-foreground">
+                <div className="flex flex-col items-center text-center gap-2">
+                    <MapPin className="w-8 h-8 text-primary flex-shrink-0" />
                     <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
                         <p className="font-bold">Location</p>
                         <p>National Event Venue Space</p>
                         <p>1000 Finch Ave W, North York, ON M3J 2V5, Canada</p>
                     </a>
                 </div>
-                <div className="flex items-start gap-4">
-                    <Calendar className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
+                <div className="flex flex-col items-center text-center gap-2">
+                    <Calendar className="w-8 h-8 text-primary flex-shrink-0" />
                     <div>
                         <p className="font-bold">Date & Time</p>
                         <p>September 6th–7th, 2025</p>
                         <p>4 PM daily</p>
                     </div>
                 </div>
-                <div className="flex items-start gap-4">
-                    <Phone className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
+                <div className="flex flex-col items-center text-center gap-2">
+                    <Phone className="w-8 h-8 text-primary flex-shrink-0" />
                     <div>
                         <p className="font-bold">Contact</p>
                         <p><a href="tel:+14375510381" className="hover:underline">+1 (437) 551-0381</a></p>
@@ -50,7 +50,7 @@ export default function Highlights() {
                 </div>
             </CardContent>
           </Card>
-          <EventVideoEmbed videoUrl={videoUrl} /> {/* Added the new video component here */}
+          <EventVideoEmbed videoUrl={videoUrl} />
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto mb-20">
