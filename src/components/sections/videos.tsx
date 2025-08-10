@@ -6,25 +6,18 @@ import { PlayCircle, Volume2 } from 'lucide-react';
 
 const videos = [
   {
-    imageSrc: 'https://img.youtube.com/vi/FH4UcrBKjxQ/hqdefault.jpg',
-    videoUrl: 'https://youtu.be/ljv9vYLWqpo?si',
+    imageSrc: 'https://img.youtube.com/vi/ljv9vYLWqpo/hqdefault.jpg',
+    videoUrl: 'https://youtu.be/ljv9vYLWqpo',
     aiHint: 'preacher sermon',
     title: 'FORENSIC PROPHECY',
     subtitle: 'PART 1',
   },
   {
-    imageSrc: 'https://img.youtube.com/vi/oC1-f34axLQ/hqdefault.jpg',
-    videoUrl: 'https://youtu.be/oC1-f34axLQ',
+    imageSrc: 'https://img.youtube.com/vi/x9QegoXqIcI/hqdefault.jpg',
+    videoUrl: 'https://youtu.be/x9QegoXqIcI',
     aiHint: 'church congregation',
     title: 'FORENSIC PROPHECY',
     subtitle: 'PART 2',
-  },
-  {
-    imageSrc: 'https://img.youtube.com/vi/87HCwOeNTW4/hqdefault.jpg',
-    videoUrl: 'https://youtu.be/ljv9vYLWqpo',
-    aiHint: 'worship event',
-    title: 'FORENSIC PROPHECY',
-    subtitle: 'PART 3',
   },
 ];
 
@@ -40,7 +33,7 @@ export default function Videos() {
             COME AND RECEIVE YOUR MIRACLE
           </h2>
         </div>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
           {videos.map((video, index) => (
             <div key={index} className="flex flex-col items-center text-center">
               <Link href={video.videoUrl} target="_blank" rel="noopener noreferrer" className="w-full">
