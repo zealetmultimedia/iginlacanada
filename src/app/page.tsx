@@ -12,7 +12,7 @@ import StayConnected from '@/components/sections/stay-connected';
 import Gallery from '@/components/sections/gallery';
 import SpecialInvitation from '@/components/sections/special-invitation';
 import AdditionalHighlights from '@/components/sections/additional-highlights';
-import EventGraphic from '@/components/sections/event-graphic';
+// import EventGraphic from '@/components/sections/event-graphic'; // Removed import
 
 export default function Home() {
   return (
@@ -22,10 +22,10 @@ export default function Home() {
         <Hero />
         <ContactBar />
         <Highlights />
-        <Videos /> {/* Moved here */}
+        <Videos />
         <Registration />
         <Hosts />
-        <EventGraphic />
+        {/* <EventGraphic /> Removed component */}
         <AdditionalHighlights />
         <Registration />
         <Gallery />
