@@ -15,7 +15,7 @@ import AdditionalHighlights from '@/components/sections/additional-highlights';
 import EventVideoEmbed from '@/components/sections/event-video-embed';
 
 export default function Home() {
-  const eventVideoUrl = "https://streamable.com/woa89k"; // Define the video URL here
+  const eventVideoUrl = "https://streamable.com/ifql3d"; // Define the video URL here
 
   const firstVideoSet = [
     {
