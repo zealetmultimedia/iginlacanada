@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Card, CardTitle, CardDescription } from '@/components/ui/card';
 
 export default function Hosts() {
   return (
@@ -12,24 +12,24 @@ export default function Hosts() {
           </p>
         </div>
         <div className="flex justify-center">
-          <Card className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 max-w-lg">
-            <CardHeader className="p-0">
+          <Card className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 max-w-5xl w-full md:grid md:grid-cols-2 items-center">
+            <div className="w-full h-full">
               <Image
                 src="https://i.imgur.com/ocUZHa7.jpg"
                 alt="Prophet Joshua Iginla"
                 data-ai-hint="man portrait"
                 width={600}
-                height={400}
-                className="w-full object-cover"
+                height={750}
+                className="w-full h-full object-cover"
               />
-            </CardHeader>
-            <CardContent className="p-6">
-              <CardTitle className="font-headline text-2xl">Prophet Joshua Iginla</CardTitle>
-              <CardDescription className="text-primary font-semibold mt-1">Lead Pastor, Champions Royal Assembly</CardDescription>
-              <p className="mt-4 text-muted-foreground">
+            </div>
+            <div className="p-6 md:p-10 flex flex-col justify-center">
+              <CardTitle className="font-headline text-3xl md:text-4xl">Prophet Joshua Iginla</CardTitle>
+              <CardDescription className="text-primary font-semibold mt-2 text-lg">Lead Pastor, Champions Royal Assembly</CardDescription>
+              <p className="mt-4 text-muted-foreground md:text-lg">
                 An internationally renowned minister, prophetic voice, author, and philanthropist. Known for his prophetic accuracy and demonstration of God's power, he leads an 80,000-seat church and Champions Television, with a vision to set captives free and raise champions for Christ.
               </p>
-            </CardContent>
+            </div>
           </Card>
         </div>
       </div>
