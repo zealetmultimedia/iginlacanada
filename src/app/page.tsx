@@ -90,7 +90,7 @@ export default function Home() {
 
   const secondGallerySet = [
     {
-      src: "https://imgur.com/naJgnTK.png",
+      src: "https://imgur.com/0WqbZPO.png",
       alt: 'Prophet Joshua Iginla ministering.',
       aiHint: 'preacher ministering',
     },
