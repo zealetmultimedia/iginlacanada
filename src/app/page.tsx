@@ -16,6 +16,7 @@ import EventVideoEmbed from '@/components/sections/event-video-embed';
 
 export default function Home() {
   const eventVideoUrl = "https://streamable.com/woa89k"; // Define the video URL here
+  const videoInvitationUrl = "https://streamable.com/on4lrg"; // New video invitation URL
 
   const firstVideoSet = [
     {
@@ -135,6 +136,20 @@ export default function Home() {
         <Highlights />
         <Videos videoList={firstVideoSet} /> {/* First instance of Videos */}
         <Hosts />
+        {/* New Video Invitation Section */}
+        <section className="py-12 md:py-24 lg:py-32 bg-background">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl">Special Video Invitation</h2>
+              <p className="mt-3 max-w-2xl mx-auto text-muted-foreground md:text-xl/relaxed">
+                A personal message from Prophet Joshua Iginla.
+              </p>
+            </div>
+            <div className="max-w-4xl mx-auto">
+              <EventVideoEmbed videoUrl={videoInvitationUrl} />
+            </div>
+          </div>
+        </section>
         <AdditionalHighlights />
         <Videos videoList={secondVideoSet} /> {/* Second instance of Videos with new links */}
         <Registration />
