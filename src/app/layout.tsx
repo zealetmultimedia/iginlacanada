@@ -9,14 +9,14 @@ const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
   weight: ['700'],
   variable: '--font-headline',
-  display: 'swap',
+  display: 'optional', // Changed from 'swap'
 });
 
 const ptSans = PT_Sans({
   subsets: ['latin'],
   weight: ['400', '700'],
   variable: '--font-body',
-  display: 'swap',
+  display: 'optional', // Changed from 'swap'
 });
 
 export const metadata: Metadata = {
