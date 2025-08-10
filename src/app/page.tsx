@@ -12,6 +12,7 @@ import StayConnected from '@/components/sections/stay-connected';
 import Gallery from '@/components/sections/gallery';
 import SpecialInvitation from '@/components/sections/special-invitation';
 import AdditionalHighlights from '@/components/sections/additional-highlights';
+import ProphetessStella from '@/components/sections/prophetess-stella'; // Import the new component
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Highlights />
         <Registration />
         <Hosts />
+        <ProphetessStella /> {/* Add the new component here */}
         <AdditionalHighlights />
         <Registration />
         <Videos />
