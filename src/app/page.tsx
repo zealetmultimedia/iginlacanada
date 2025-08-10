@@ -27,6 +27,7 @@ export default function Home() {
         <Hosts />
         {/* <EventGraphic /> Removed component */}
         <AdditionalHighlights />
+        <Videos /> {/* Added another Videos section here */}
         <Registration />
         <Gallery />
         <Registration />
