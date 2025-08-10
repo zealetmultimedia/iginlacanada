@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 
 export default function Location() {
   const address = 'National Event Venue Space, 1000 Finch Avenue W, North York, ON M3J 2V5, Canada';
-  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+  const googleMapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.183075324155!2d-79.46921309999999!3d43.7690584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2dfd73d94d9d%3A0xc87b9744baa63637!2sNational%20Event%20Venue%20Space!5e0!3m2!1sen!2sng!4v1754682807583!5m2!1sen!2sng`;
 
   return (
     <section className="py-30 md:py-24 lg:py-32 bg-secondary">
@@ -29,7 +29,7 @@ export default function Location() {
               <p>North York, ON M3J 2V5</p>
               <p>Canada</p>
               <Button asChild size="lg" className="mt-6 bg-accent text-accent-foreground font-bold text-lg px-8 py-6 rounded-lg transition-transform duration-300 hover:scale-105 shadow-lg">
-                <Link href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`} target="_blank" rel="noopener noreferrer">
                   Get Directions <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
               </Button>
@@ -38,7 +38,7 @@ export default function Location() {
           <div className="aspect-w-16 aspect-h-12">
             <Card className="overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.183075324155!2d-79.46921309999999!3d43.7690584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2dfd73d94d9d%3A0xc87b9744baa63637!2sNational%20Event%20Venue%20Space!5e0!3m2!1sen!2sng!4v1754682807583!5m2!1sen!2sng"
+                src={googleMapsUrl}
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

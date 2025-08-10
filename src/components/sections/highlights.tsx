@@ -29,7 +29,7 @@ export default function Highlights() {
                     <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
                         <p className="font-bold">Location</p>
                         <p>National Event Venue Space</p>
-                        <p>1000 Finch Ave W, North York, ON</p>
+                        <p>1000 Finch Ave W, North York, ON M3J 2V5, Canada</p>
                     </a>
                 </div>
                 <div className="flex items-start gap-4">

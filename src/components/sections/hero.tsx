@@ -34,7 +34,7 @@ export default function Hero() {
             Sat 6th - Sun 7th September, 2025 | 4PM Daily
         </p>
         <p className="mt-2 text-lg md:text-xl drop-shadow-md">
-            National Event Venue Space, 1000 Finch Ave W, North York, ON
+            National Event Venue Space, 1000 Finch Ave W, North York, ON M3J 2V5, Canada
         </p>
         <Countdown targetDate={eventDate} />
         <div className="mt-8">
