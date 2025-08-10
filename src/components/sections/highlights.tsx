@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Church, Flame, Award, GitBranchPlus, HeartHandshake, Sparkles } from 'lucide-react';
+import Image from 'next/image';
 
 const highlights = [
   { icon: <Flame className="w-8 h-8 text-primary" />, title: 'Forensic Prophecy', description: 'Witness forensic prophecy, deep deliverance, and healing.' },
@@ -20,6 +21,16 @@ export default function Highlights() {
             <p>
               Get ready for an unforgettable, destiny-shifting encounter at the "Grass to Grace" Canada Invasion 2025! This is a unique opportunity to join Prophet Joshua Iginla live for a life-transforming experience where heaven is expected to touch earth in a new dimension of grace, glory, and greatness. Attendees should prepare for a mighty shift to the next level in every area of their lives.
             </p>
+            <div className="my-8 flex justify-center">
+              <Image
+                src="https://i.imgur.com/YqYfX1B.png"
+                alt="Canada Invasion 2025 Event Poster"
+                width={720}
+                height={1080}
+                className="rounded-lg shadow-xl"
+                priority
+              />
+            </div>
             <p>
              This special healing, deliverance, and anointing service is designed to usher participants into a season of bountiful harvests, undeniable miracles, and profound divine encounters. You can anticipate being empowered by undiluted revelations from the Word of God and witnessing forensic prophecy, deep deliverance, healing, and the supernatural like never before. This is more than just a meeting; it is poised to be your personal moment of divine elevation as "Grace is Invading" Canada.
             </p>
