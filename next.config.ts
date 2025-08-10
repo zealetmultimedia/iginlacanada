@@ -36,6 +36,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Disable Turbopack to resolve persistent font loading issues
+  compiler: {
+    turbopack: false,
+  },
 };
 
 export default nextConfig;
