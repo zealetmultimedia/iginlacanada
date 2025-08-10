@@ -17,15 +17,15 @@ export default function SpecialInvitation() {
                   Special Invitation: Don't Come Alone!
                 </CardTitle>
               </CardHeader>
-              <CardContent className="p-0 pt-6 space-y-4 text-lg text-muted-foreground text-left">
+              <CardContent className="p-0 pt-6 space-y-4 text-lg text-foreground text-left">
                 <p>
-                  Join Prophet Joshua Iginla live in Canada for the "Grass to Grace" Healing, Deliverance, and Anointing Service on September 6th-7th, 2025. This is an unforgettable, destiny-shifting encounter where you can expect forensic prophecy, deep deliverance, and supernatural healing. Don't miss this opportunity to witness heaven kiss earth in a new dimension of grace, glory, and greatness.
+                  Join <strong className="text-primary">Prophet Joshua Iginla</strong> live in Canada for the <strong className="text-primary">"Grass to Grace"</strong> Healing, Deliverance, and Anointing Service on <strong className="text-primary">September 6th-7th, 2025</strong>. This is an unforgettable, destiny-shifting encounter where you can expect <strong className="text-primary">forensic prophecy, deep deliverance, and supernatural healing</strong>. Don't miss this opportunity to witness heaven kiss earth in a new dimension of grace, glory, and greatness.
                 </p>
                 <p>
                   The atmosphere will be charged with the undiluted Word of God, creating an environment ripe for spiritual breakthroughs and undeniable miracles. This isn't just a meeting; it's your moment for divine elevation. Bring your family, friends, neighbors, coworkers, or anyone who needs a miracle and a life-transforming experience. <strong>One invitation could unlock someone's miracle!</strong>
                 </p>
                 <p>
-                  Spread the word about this powerful Canadian revival at the National Event Venue Space, 1000 Finch Ave W, North York, ON M3J 2V5. Let's pack the house with expectation and watch God move! Come ready for your breakthrough – Canada, get ready... grace is invading!
+                  Spread the word about this powerful Canadian revival at the <strong className="text-primary">National Event Venue Space, 1000 Finch Ave W, North York, ON M3J 2V5</strong>. Let's pack the house with expectation and watch God move! Come ready for your breakthrough – Canada, get ready... grace is invading!
                 </p>
               </CardContent>
             </div>
