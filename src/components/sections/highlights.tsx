@@ -77,15 +77,15 @@ export default function Highlights() {
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {highlights.map((highlight) => (
-            <Card key={highlight.title} className="flex flex-col items-center text-center p-6 bg-accent rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
+            <Card key={highlight.title} className="flex flex-col items-center text-center p-6 bg-muted rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
               <CardHeader className="p-0">
-                <div className="p-4 bg-gray-900 rounded-full mb-4">
+                <div className="p-4 bg-primary rounded-full mb-4">
                   {highlight.icon}
                 </div>
-                <CardTitle className="font-headline text-xl text-accent-foreground">{highlight.title}</CardTitle>
+                <CardTitle className="font-headline text-xl text-primary">{highlight.title}</CardTitle>
               </CardHeader>
               <CardContent className="p-0 mt-2">
-                <p className="text-accent-foreground/90">{highlight.description}</p>
+                <p className="text-primary">{highlight.description}</p>
               </CardContent>
             </Card>
           ))}
