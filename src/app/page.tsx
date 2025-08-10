@@ -32,6 +32,7 @@ export default function Home() {
         <Gallery />
         <Registration />
         <SpecialInvitation />
+        <Gallery /> {/* Added another Gallery section here */}
         <Location />
         <Registration /> {/* Added another Registration section here */}
         <StayConnected />
