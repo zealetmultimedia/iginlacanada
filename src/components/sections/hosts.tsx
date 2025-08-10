@@ -6,7 +6,7 @@ export default function Hosts() {
     {
       name: 'Prophet Joshua Iginla',
       title: 'Lead Pastor, Champions Royal Assembly',
-      bio: 'An internationally renowned minister, prophetic voice, prolific author, mentor, and philanthropist. He serves as the Lead Pastor of Champions Royal Assembly, an 80,000-seat church headquartered in Abuja, Nigeria, with branches spanning Africa, Europe, and the US. He also spearheads Champions Television, which reaches millions of viewers worldwide.\n\nKnown for his extraordinary prophetic accuracy, powerful demonstration of God\'s anointing, and profound compassion, Prophet Iginla is deeply committed to setting captives free and raising champions for Christ. His ministry extends beyond the pulpit through the Joshua Iginla Foundation, which has empowered thousands of widows, orphans, and the less privileged with scholarships, financial support, and transformative acts of generosity.\n\nA prolific author with over 100 transformational books to his name, Prophet Iginla also mentors numerous pastors and leaders globally. He continues to impact lives worldwide through his ministry, philanthropy, and unwavering passion to showcase God\'s love in action. He is happily married to Prophetess Stella Iginla Zimasa, and they are blessed with five beautiful children.',
+      bio: 'An <strong className="text-primary">internationally renowned minister, prophetic voice, prolific author, mentor, and philanthropist</strong>. He serves as the Lead Pastor of <strong className="text-primary">Champions Royal Assembly</strong>, an 80,000-seat church headquartered in Abuja, Nigeria, with branches spanning Africa, Europe, and the US. He also spearheads <strong className="text-primary">Champions Television</strong>, which reaches millions of viewers worldwide.\n\nKnown for his <strong className="text-primary">extraordinary prophetic accuracy, powerful demonstration of God\'s anointing, and profound compassion</strong>, Prophet Iginla is deeply committed to <strong className="text-primary">setting captives free and raising champions for Christ</strong>. His ministry extends beyond the pulpit through the <strong className="text-primary">Joshua Iginla Foundation</strong>, which has empowered thousands of widows, orphans, and the less privileged with scholarships, financial support, and transformative acts of generosity.\n\nA <strong className="text-primary">prolific author with over 100 transformational books</strong> to his name, Prophet Iginla also mentors numerous pastors and leaders globally. He continues to <strong className="text-primary">impact lives worldwide</strong> through his ministry, philanthropy, and unwavering passion to showcase God\'s love in action. He is happily married to Prophetess Stella Iginla Zimasa, and they are blessed with five beautiful children.',
       imageSrc: 'https://i.imgur.com/zUFXAPs.png',
       imageAlt: 'Prophet Joshua Iginla',
       aiHint: 'man portrait',
@@ -38,9 +38,7 @@ export default function Hosts() {
               <div className="p-6 md:p-8 flex flex-col justify-center w-full md:w-1/2">
                 <CardTitle className="font-headline text-2xl md:text-3xl">{host.name}</CardTitle>
                 <CardDescription className="text-primary font-semibold mt-2 text-base md:text-lg">{host.title}</CardDescription>
-                <p className="mt-4 text-muted-foreground text-sm md:text-base whitespace-pre-line">
-                  {host.bio}
-                </p>
+                <p className="mt-4 text-muted-foreground text-sm md:text-base whitespace-pre-line" dangerouslySetInnerHTML={{ __html: host.bio }} />
               </div>
             </Card>
           ))}
