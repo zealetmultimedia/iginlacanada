@@ -7,7 +7,7 @@ import { PlayCircle, Volume2 } from 'lucide-react';
 const videos = [
   {
     imageSrc: 'https://img.youtube.com/vi/ljv9vYLWqpo/hqdefault.jpg',
-    videoUrl: 'https://youtu.be/Wo17Mw0EG4c', // Updated this URL
+    videoUrl: 'https://youtu.be/Wo17Mw0EG4c',
     aiHint: 'preacher sermon',
     title: 'FORENSIC PROPHECY',
     subtitle: 'PART 1',
@@ -18,6 +18,13 @@ const videos = [
     aiHint: 'church congregation',
     title: 'FORENSIC PROPHECY',
     subtitle: 'PART 2',
+  },
+  {
+    imageSrc: 'https://i.imgur.com/video_placeholder.png', // Using a generic placeholder image for Streamable video
+    videoUrl: 'https://streamable.com/pr7gsk',
+    aiHint: 'powerful testimonies, church service',
+    title: 'POWERFUL TESTIMONIES',
+    subtitle: 'Witness the Miracles',
   },
 ];
 
@@ -33,7 +40,7 @@ export default function Videos() {
             COME AND RECEIVE YOUR MIRACLE
           </h2>
         </div>
-        <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
           {videos.map((video, index) => (
             <div key={index} className="flex flex-col items-center text-center">
               <Link href={video.videoUrl} target="_blank" rel="noopener noreferrer" className="w-full">
