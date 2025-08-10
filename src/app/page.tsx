@@ -12,7 +12,7 @@ import StayConnected from '@/components/sections/stay-connected';
 import Gallery from '@/components/sections/gallery';
 import SpecialInvitation from '@/components/sections/special-invitation';
 import AdditionalHighlights from '@/components/sections/additional-highlights';
-import ProphetessStella from '@/components/sections/prophetess-stella'; // Import the new component
+// Removed import ProphetessStella from '@/components/sections/prophetess-stella';
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
         <Highlights />
         <Registration />
         <Hosts />
-        <ProphetessStella /> {/* Add the new component here */}
+        {/* Removed ProphetessStella component */}
         <AdditionalHighlights />
         <Registration />
         <Videos />
