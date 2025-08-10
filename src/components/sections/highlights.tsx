@@ -31,7 +31,7 @@ export default function Highlights() {
                 priority
               />
             </div>
-            <h3 className="text-2xl font-bold font-headline text-foreground mt-8">An Invitation to Divine Elevation</h3>
+            <h3 className="text-3xl md:text-4xl font-bold font-headline text-foreground mt-8">An Invitation to Divine Elevation</h3>
             <p>
              This special healing, deliverance, and anointing service is designed to usher participants into a season of bountiful harvests, undeniable miracles, and profound divine encounters. You can anticipate being empowered by undiluted revelations from the Word of God and witnessing forensic prophecy, deep deliverance, healing, and the supernatural like never before. This is more than just a meeting; it is poised to be your personal moment of divine elevation as "Grace is Invading" Canada.
             </p>
