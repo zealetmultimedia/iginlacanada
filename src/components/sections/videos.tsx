@@ -8,29 +8,17 @@ import { PlayCircle, Volume2 } from 'lucide-react';
 import { useState } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 
-const videos = [
-  {
-    imageSrc: 'https://img.youtube.com/vi/ljv9vYLWqpo/hqdefault.jpg',
-    videoUrl: 'https://youtu.be/Wo17Mw0EG4c',
-    aiHint: 'preacher sermon',
-    title: 'FORENSIC PROPHECY',
-    subtitle: 'PART 1',
-  },
-  {
-    imageSrc: 'https://img.youtube.com/vi/x9QegoXqIcI/hqdefault.jpg',
-    videoUrl: 'https://youtu.be/Wo17Mw0EG4c',
-    aiHint: 'church congregation',
-    title: 'FORENSIC PROPHECY',
-    subtitle: 'PART 2',
-  },
-  {
-    imageSrc: 'https://i.imgur.com/video_placeholder.png', // Using a generic placeholder image for Streamable video
-    videoUrl: 'https://streamable.com/pr7gsk',
-    aiHint: 'powerful testimonies, church service',
-    title: 'POWERFUL TESTIMONIES',
-    subtitle: 'Witness the Miracles',
-  },
-];
+interface Video {
+  imageSrc: string;
+  videoUrl: string;
+  aiHint: string;
+  title: string;
+  subtitle: string;
+}
+
+interface VideosProps {
+  videoList: Video[];
+}
 
 // Helper function to get the embed URL from a given video URL
 const getEmbedUrl = (url: string) => {
@@ -45,7 +33,7 @@ const getEmbedUrl = (url: string) => {
   return url; // Fallback
 };
 
-export default function Videos() {
+export default function Videos({ videoList }: VideosProps) {
   const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSerF0kVh5vVFlvU9ZkL8ToE-tkURDjU4BW_jToRs9pNdC9N-Q/viewform?usp=dialog";
   const [selectedVideoUrl, setSelectedVideoUrl] = useState<string | null>(null);
 
@@ -59,7 +47,7 @@ export default function Videos() {
           </h2>
         </div>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-          {videos.map((video, index) => (
+          {videoList.map((video, index) => (
             <div key={index} className="flex flex-col items-center text-center">
               <div
                 onClick={() => setSelectedVideoUrl(video.videoUrl)}

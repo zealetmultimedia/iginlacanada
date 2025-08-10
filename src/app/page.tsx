@@ -17,6 +17,54 @@ import EventVideoEmbed from '@/components/sections/event-video-embed';
 export default function Home() {
   const eventVideoUrl = "https://streamable.com/woa89k"; // Define the video URL here
 
+  const firstVideoSet = [
+    {
+      imageSrc: 'https://img.youtube.com/vi/ljv9vYLWqpo/hqdefault.jpg',
+      videoUrl: 'https://youtu.be/Wo17Mw0EG4c',
+      aiHint: 'preacher sermon',
+      title: 'FORENSIC PROPHECY',
+      subtitle: 'PART 1',
+    },
+    {
+      imageSrc: 'https://img.youtube.com/vi/x9QegoXqIcI/hqdefault.jpg',
+      videoUrl: 'https://youtu.be/Wo17Mw0EG4c',
+      aiHint: 'church congregation',
+      title: 'FORENSIC PROPHECY',
+      subtitle: 'PART 2',
+    },
+    {
+      imageSrc: 'https://i.imgur.com/video_placeholder.png',
+      videoUrl: 'https://streamable.com/pr7gsk',
+      aiHint: 'powerful testimonies, church service',
+      title: 'POWERFUL TESTIMONIES',
+      subtitle: 'Witness the Miracles',
+    },
+  ];
+
+  const secondVideoSet = [
+    {
+      imageSrc: 'https://img.youtube.com/vi/Wo17Mw0EG4c/hqdefault.jpg',
+      videoUrl: 'https://youtu.be/Wo17Mw0EG4c',
+      aiHint: 'preacher sermon',
+      title: 'NEW VIDEO',
+      subtitle: 'Part 1',
+    },
+    {
+      imageSrc: 'https://img.youtube.com/vi/pMN813fAzcc/hqdefault.jpg',
+      videoUrl: 'https://youtu.be/pMN813fAzcc',
+      aiHint: 'preacher sermon',
+      title: 'NEW VIDEO',
+      subtitle: 'Part 2',
+    },
+    {
+      imageSrc: 'https://img.youtube.com/vi/qzkjl_QeCyM/hqdefault.jpg',
+      videoUrl: 'https://youtu.be/qzkjl_QeCyM',
+      aiHint: 'preacher sermon',
+      title: 'NEW VIDEO',
+      subtitle: 'Part 3',
+    },
+  ];
+
   return (
     <div className="flex flex-col min-h-dvh bg-background">
       <Header />
@@ -38,11 +86,11 @@ export default function Home() {
           </div>
         </section>
         <Highlights />
-        <Videos />
+        <Videos videoList={firstVideoSet} /> {/* First instance of Videos */}
         <Registration />
         <Hosts />
         <AdditionalHighlights />
-        <Videos />
+        <Videos videoList={secondVideoSet} /> {/* Second instance of Videos with new links */}
         <Registration />
         <Gallery />
         <Registration />
