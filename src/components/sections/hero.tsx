@@ -4,13 +4,10 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import Image from 'next/image';
 import Countdown from '@/components/sections/countdown';
-import { Calendar, MapPin, Phone } from 'lucide-react';
 
 export default function Hero() {
   const eventDate = '2025-09-06T16:00:00';
   const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSerF0kVh5vVFlvU9ZkL8ToE-tkURDjU4BW_jToRs9pNdC9N-Q/viewform?usp=dialog";
-  const address = 'National Event Venue Space, 1000 Finch Avenue W, North York, ON M3J 2V5, Canada';
-  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 
   return (
     <section className="relative w-full min-h-[700px] flex items-center justify-center text-center text-white overflow-hidden py-12">
@@ -42,36 +39,6 @@ export default function Hero() {
             <Link href={googleFormUrl} target="_blank" rel="noopener noreferrer">Reserve Your Seat Now!</Link>
           </Button>
         </div>
-
-        <div className="mt-12 text-left max-w-md w-full bg-black/30 p-6 rounded-lg backdrop-blur-sm border border-white/20">
-            <h3 className="text-2xl font-headline font-bold text-center mb-4 text-primary">Event Details</h3>
-            <div className="space-y-4 text-base md:text-lg">
-                <div className="flex items-start gap-4">
-                    <MapPin className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
-                    <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
-                        <p className="font-bold">National Event Venue Space</p>
-                        <p>1000 Finch Avenue W</p>
-                        <p>North York, ON M3J 2V5, Canada</p>
-                    </a>
-                </div>
-                <div className="flex items-start gap-4">
-                    <Calendar className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
-                    <div>
-                        <p className="font-bold">September 6th–7th, 2025, 4 PM daily</p>
-                        <p>– 27th @ 7 AM</p>
-                    </div>
-                </div>
-                <div className="flex items-start gap-4">
-                    <Phone className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
-                    <div>
-                        <p className="font-bold">
-                            <a href="tel:+14375510381" className="hover:underline">+1 (437) 551-0381</a>, <a href="tel:+2348149439447" className="hover:underline">+234 814 943 9447</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
       </div>
     </section>
   );
