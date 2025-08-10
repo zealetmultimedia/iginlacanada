@@ -19,33 +19,34 @@ export default function Highlights() {
   return (
     <section className="py-12 md:py-24 lg:py-32 bg-secondary">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="mb-12 max-w-2xl mx-auto">
+        <div className="mb-12 max-w-5xl mx-auto">
           <Card className="border-primary shadow-lg rounded-xl">
             <CardHeader>
               <CardTitle className="text-3xl font-headline font-bold text-center text-primary">Event Details</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-4 text-base md:text-lg text-foreground">
+            <CardContent className="grid md:grid-cols-3 gap-8 p-6 md:p-8 text-base md:text-lg text-foreground">
                 <div className="flex items-start gap-4">
-                    <MapPin className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
+                    <MapPin className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
                     <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
-                        <p className="font-bold">National Event Venue Space</p>
-                        <p>1000 Finch Avenue W</p>
-                        <p>North York, ON M3J 2V5, Canada</p>
+                        <p className="font-bold">Location</p>
+                        <p>National Event Venue Space</p>
+                        <p>1000 Finch Ave W, North York, ON</p>
                     </a>
                 </div>
                 <div className="flex items-start gap-4">
-                    <Calendar className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
+                    <Calendar className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
                     <div>
-                        <p className="font-bold">September 6th–7th, 2025, 4 PM daily</p>
-                        <p>– 27th @ 7 AM</p>
+                        <p className="font-bold">Date & Time</p>
+                        <p>September 6th–7th, 2025</p>
+                        <p>4 PM daily</p>
                     </div>
                 </div>
                 <div className="flex items-start gap-4">
-                    <Phone className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
+                    <Phone className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
                     <div>
-                        <p className="font-bold">
-                            <a href="tel:+14375510381" className="hover:underline">+1 (437) 551-0381</a>, <a href="tel:+2348149439447" className="hover:underline">+234 814 943 9447</a>
-                        </p>
+                        <p className="font-bold">Contact</p>
+                        <p><a href="tel:+14375510381" className="hover:underline">+1 (437) 551-0381</a></p>
+                        <p><a href="tel:+2348149439447" className="hover:underline">+234 814 943 9447</a></p>
                     </div>
                 </div>
             </CardContent>
