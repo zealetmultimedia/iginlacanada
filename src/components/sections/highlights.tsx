@@ -66,7 +66,7 @@ export default function Highlights() {
           </div>
           <div>
             <Image
-              src="https://i.imgur.com/Nd1PEVK.png"
+              src="https://imgur.com/9MNEqLf.png"
               alt="Canada Invasion 2025 Event Poster"
               width={720}
               height={1080}
