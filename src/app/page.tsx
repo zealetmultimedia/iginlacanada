@@ -21,20 +21,20 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <ContactBar />
+        <Gallery /> {/* Moved this Gallery section here */}
         <Highlights />
         <Videos />
         <Registration />
         <Hosts />
         {/* <EventGraphic /> Removed component */}
         <AdditionalHighlights />
-        <Videos /> {/* Added another Videos section here */}
+        <Videos />
         <Registration />
         <Gallery />
         <Registration />
         <SpecialInvitation />
-        <Gallery /> {/* Added another Gallery section here */}
         <Location />
-        <Registration /> {/* Added another Registration section here */}
+        <Registration />
         <StayConnected />
         <ShareTool />
       </main>
