@@ -9,7 +9,7 @@ export default function Registration() {
   const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSerF0kVh5vVFlvU9ZkL8ToE-tkURDjU4BW_jToRs9pNdC9N-Q/viewform?usp=dialog"; // Replace with your Google Form URL
 
   return (
-    <section id="registration" className="py-12 md:py-24 lg:py-32 bg-secondary">
+    <section className="py-12 md:py-24 lg:py-32 bg-secondary">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-2xl">
           <Card className="rounded-xl shadow-2xl border-primary border-2">

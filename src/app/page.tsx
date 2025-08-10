@@ -20,11 +20,13 @@ export default function Home() {
         <Hero />
         <ContactBar />
         <Highlights />
+        <Registration />
         <Hosts />
+        <Registration />
         <Videos />
         <Gallery />
-        <SpecialInvitation />
         <Registration />
+        <SpecialInvitation />
         <Location />
         <StayConnected />
         <ShareTool />
