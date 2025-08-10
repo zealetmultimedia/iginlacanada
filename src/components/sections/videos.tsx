@@ -25,7 +25,7 @@ export default function Videos() {
   const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSerF0kVh5vVFlvU9ZkL8ToE-tkURDjU4BW_jToRs9pNdC9N-Q/viewform?usp=dialog";
 
   return (
-    <section className="py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
+    <section className="py-8 md:py-16 lg:py-24 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <p className="text-lg text-primary-foreground/80 font-semibold tracking-wider">Champions International Ministry</p>
