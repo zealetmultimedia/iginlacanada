@@ -7,9 +7,6 @@ const highlights = [
   { icon: <Flame className="w-8 h-8 text-primary" />, title: 'Forensic Prophecy', description: 'Witness forensic prophecy, deep deliverance, and healing.' },
   { icon: <Sparkles className="w-8 h-8 text-primary" />, title: 'Supernatural Encounters', description: 'Experience the supernatural like never before.' },
   { icon: <Award className="w-8 h-8 text-primary" />, title: 'Divine Elevation', description: 'This is more than a meeting, it\'s your moment of divine elevation.' },
-  { icon: <GitBranchPlus className="w-8 h-8 text-primary" />, title: 'Undiluted Revelations', description: 'Be empowered by undiluted revelations from the Word of God.' },
-  { icon: <HeartHandshake className="w-8 h-8 text-primary" />, title: 'Deliverance & Breakthrough', description: 'Step into your season of bountiful harvests and miracles.' },
-  { icon: <Church className="w-8 h-8 text-primary" />, title: 'Life-Transforming Experience', description: 'Join a life-transforming experience as heaven kisses earth.' },
 ];
 
 export default function Highlights() {

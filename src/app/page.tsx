@@ -11,6 +11,7 @@ import Videos from '@/components/sections/videos';
 import StayConnected from '@/components/sections/stay-connected';
 import Gallery from '@/components/sections/gallery';
 import SpecialInvitation from '@/components/sections/special-invitation';
+import AdditionalHighlights from '@/components/sections/additional-highlights';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Highlights />
         <Registration />
         <Hosts />
+        <AdditionalHighlights />
         <Registration />
         <Videos />
         <Gallery />
