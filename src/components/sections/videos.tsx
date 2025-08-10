@@ -14,7 +14,7 @@ const videos = [
   },
   {
     imageSrc: 'https://img.youtube.com/vi/x9QegoXqIcI/hqdefault.jpg',
-    videoUrl: 'https://youtu.be/x9QegoXqIcI',
+    videoUrl: 'https://youtu.be/Wo17Mw0EG4c',
     aiHint: 'church congregation',
     title: 'FORENSIC PROPHECY',
     subtitle: 'PART 2',
