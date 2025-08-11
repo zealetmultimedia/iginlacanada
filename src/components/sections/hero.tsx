@@ -38,7 +38,7 @@ export default function Hero() {
         </p>
         <Countdown targetDate={eventDate} />
         <div className="mt-8">
-          <Button asChild size="lg" className="bg-accent text-accent-foreground font-bold text-xl px-10 py-7 rounded-full transition-transform duration-300 hover:scale-105 shadow-lg border-2 border-primary">
+          <Button asChild size="lg" className="bg-accent text-accent-foreground font-bold text-xl px-10 py-7 rounded-full transition-transform duration-300 hover:scale-105 shadow-lg border-2 border-primary uppercase">
             <Link href={googleFormUrl} target="_blank" rel="noopener noreferrer">Reserve Your Seat Now!</Link>
           </Button>
         </div>

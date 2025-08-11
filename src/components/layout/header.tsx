@@ -11,7 +11,7 @@ export default function Header() {
           <img src="https://i.imgur.com/hgzTcOy.png" alt="Joshua Iginla Ministries Logo" className="h-16" />
         </Link>
         <nav>
-          <Button asChild className="font-bold transition-transform duration-300 hover:scale-105" variant="default" style={{ backgroundColor: 'hsl(var(--primary))', color: 'hsl(var(--primary-foreground))' }}>
+          <Button asChild className="font-bold text-lg py-3 px-6 transition-transform duration-300 hover:scale-105 uppercase" variant="default" style={{ backgroundColor: 'hsl(var(--primary))', color: 'hsl(var(--primary-foreground))' }}>
             <Link href={googleFormUrl} target="_blank" rel="noopener noreferrer">Reserve My Seat</Link>
           </Button>
         </nav>

@@ -68,7 +68,7 @@ export default function Videos({ videoList }: VideosProps) {
               </Card>
               <h3 className="font-headline text-xl font-bold mt-4">{video.title}</h3>
               <p className="text-sm text-muted-foreground">{video.subtitle}</p>
-              <Button asChild className="mt-4 font-bold transition-transform duration-300 hover:scale-105" variant="secondary">
+              <Button asChild className="mt-4 font-bold text-lg py-3 px-6 transition-transform duration-300 hover:scale-105 uppercase" variant="secondary">
                 <Link href={googleFormUrl} target="_blank" rel="noopener noreferrer">Reserve My Seat</Link>
               </Button>
             </div>

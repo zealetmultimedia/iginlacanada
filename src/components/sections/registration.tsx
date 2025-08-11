@@ -22,7 +22,7 @@ export default function Registration() {
               </CardDescription>
             </CardHeader>
             <CardContent className="p-8 pt-0 flex justify-center">
-              <Button asChild size="lg" className="bg-accent text-accent-foreground font-bold text-lg py-6 px-8 rounded-lg transition-transform duration-300 hover:scale-105 shadow-lg">
+              <Button asChild size="lg" className="bg-accent text-accent-foreground font-bold text-xl py-7 px-10 rounded-lg transition-transform duration-300 hover:scale-105 shadow-lg uppercase">
                 <Link href={googleFormUrl} target="_blank" rel="noopener noreferrer">
                   Register Now <ArrowRight className="ml-2" />
                 </Link>
